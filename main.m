@@ -107,5 +107,5 @@ writetable(T, 'best_fields_N.xlsx', 'Sheet', 'best_fields');
 
 %%%%%%%%%%%%%%%%%%%%% Ablation %%%%%%%%%%%%%%%%%%%%
 
-suite2 = run_ablation_suite_ppsn_lit(false);
+suite2 = run_ablation(false);
 
