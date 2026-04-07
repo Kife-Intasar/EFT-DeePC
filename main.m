@@ -17,7 +17,11 @@ seed_core = seed_data_fixed + 100*repeat_id;
 
 base.seed_data = seed_core;
 
-
+b1 = cfg_baseline_coulson19_lit(base);   
+b2 = cfg_baseline_teutsch23_lit(base);  
+b3 = cfg_baseline_shi23_lit(base);      
+b4 = cfg_baseline_fixedpaper(base); 
+b5 = cfg_baseline_worstcase(base); 
 
 % Ensure window_max_cols exists everywhere (prevents your error)
 if ~isfield(base,'online'), base.online = struct(); end
