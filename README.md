@@ -1,1 +1,1 @@
-The contexts of the code are the construction of a framework for tuning the hyperparameters of DeePC framework using EMO optimization. The provided code is executed on 'Vehicle Rollout' (S1) benchmark system. 
+The contexts of the code are the construction of a framework for tuning the hyperparameters of DeePC framework using EMO optimization. The provided code is executed on 'Vehicle Rollout' (S1) benchmark system. The supplementary material.pdf file contains all supporting content and extended results for the main manuscript.    
